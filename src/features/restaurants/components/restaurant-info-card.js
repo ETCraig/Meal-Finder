@@ -1,7 +1,5 @@
 import React from "react";
-import styled from "styled-components/native";
-import { Text, Image, View } from "react-native";
-import { Card } from "react-native-paper";
+import { Text } from "react-native";
 import { SvgXml } from "react-native-svg";
 
 import { Spacer } from "../../../components/spacer/spacer.component";
