@@ -16,7 +16,7 @@ import { RestaurantsScreen } from "./src/features/restaurants/screens/restaurant
 
 import { theme } from "./src/infrastructure/theme";
 
-import { SafeArea } from "./src/components/utils/safe-area";
+import { SafeArea } from "./src/utils/safe-area";
 
 const Tab = createBottomTabNavigator();
 
@@ -65,12 +65,11 @@ export default function App() {
         <NavigationContainer>
           <Tab.Navigator
             screenOptions={createScreenOptions}
-            tabBarOptions={{
-              activeTintColor: "tomato",
-              inactiveTintColor: "gray",
-            }}
+            // tabBarOptions={{
+            //   activeTintColor: "tomato",
+            //   inactiveTintColor: "gray",
+            // }}
           >
-            {" "}
             <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
             <Tab.Screen name="Map" component={Map} />
             <Tab.Screen name="Settings" component={Settings} />

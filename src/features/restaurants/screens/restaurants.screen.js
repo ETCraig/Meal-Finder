@@ -1,7 +1,7 @@
 import React from "react";
 import { Searchbar } from "react-native-paper";
 import { FlatList } from "react-native";
-import { SafeArea } from "../../../components/utils/safe-area";
+import { SafeArea } from "../../../utils/safe-area";
 import { RestaurantInfoCard } from "../components/restaurant-info-card";
 import { Spacer } from "../../../components/spacer/spacer";
 import styled from "styled-components/native";
